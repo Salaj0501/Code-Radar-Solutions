@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char a;
+    char a[50];
     int b;
     char c;
     scanf("%s %s %d",&a,&c,&b);
