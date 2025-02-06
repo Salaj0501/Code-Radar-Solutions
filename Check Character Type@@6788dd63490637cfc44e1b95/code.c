@@ -11,7 +11,7 @@ int main() {
         printf("Consonant");
     }
     else if (ch>=0&& ch<=9){
-        printf("Number");
+        printf("Digit");
     }
     else {
         printf("Special Character");
