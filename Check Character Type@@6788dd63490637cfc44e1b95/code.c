@@ -3,11 +3,6 @@
 int main() {
     char ch;
     scanf("%c",&ch);
-    if (toupper(ch)=='A'||'E'||'I'||'O'||'U'){
-        printf("Vowel");
-    }
-    else {
-        printf("Consonant");
-    }
+    if ((toupper(ch)=='A')||(toupper(ch)=='A')||(toupper(ch)=='A')||(toupper(ch)=='A')||(toupper(ch)=='A'||))
     return 0;
 }
