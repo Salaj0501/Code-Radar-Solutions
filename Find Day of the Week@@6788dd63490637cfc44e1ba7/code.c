@@ -28,7 +28,8 @@ int main() {
         printf("Invalid")
         break;
         case 8:
-        printf("Invalid")
+        printf("Invalid");
+        break;
     }
     return 0;
 }
