@@ -2,9 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    bits=sizeof(int)*8;
-    int mask=1<<(bits-1);
-    if (num&mask){
+    if (%&(1<<31)){
         printf("Set");
     }
     else {
