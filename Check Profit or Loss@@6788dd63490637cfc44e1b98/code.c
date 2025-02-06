@@ -11,8 +11,11 @@ int main() {
     if (price>sell){
         printf("Loss");
     }
+    else if(price==sell) {
+        printf("No Profit No Loss");
+    }
     else {
-        printf("Profit");
+        printf("Profit")
     }
     return 0;
 }
