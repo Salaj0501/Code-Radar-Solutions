@@ -6,5 +6,8 @@ int main() {
     if (toupper(ch)==A||E||I||O||U){
         printf("Vowel");
     }
+    else {
+        printf("Consonant");
+    }
     return 0;
 }
