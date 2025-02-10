@@ -1,11 +1,9 @@
 #include <stdio.h>
-int main(){
-    int i;
-    int table;
+int main() {
+    int i,sum=0;
     int range;
-    scanf("%d",&table);
-    scanf("%d",&range);
     for (i=1;i<=range;i++){
-        printf("%d\n",table*i);
+        sum+=i;
     }
+    printf("sum of first 10 natural numbers is %d",sum);
 }
