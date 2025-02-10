@@ -5,5 +5,5 @@ int main() {
     for (i=1;i<=range;i++){
         sum+=i;
     }
-    printf("sum of first 10 natural numbers is %d",sum);
+    printf("%d",sum);
 }
