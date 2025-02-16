@@ -9,6 +9,6 @@ int main(){
         printf("Second");
     }
     else {
-        printf("Equal")
+        printf("Equal");
     }
 }
