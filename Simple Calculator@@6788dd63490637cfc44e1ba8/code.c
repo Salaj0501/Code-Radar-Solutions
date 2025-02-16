@@ -3,5 +3,18 @@ int main(){
     int a,b;
     char op;
     scanf("%d %d %c",&a,&b,&op);
-    printf("%d",aopb);
+    switch(op){
+        case '+':
+            printf("%d",a+b);
+            break;
+        case '-':
+            printf("%d",a-b);
+            break;
+        case '*':
+            printf("%d", a * b);
+            break;
+        case '/':
+            printf("%d",a/b);
+            break:
+    }
 }
