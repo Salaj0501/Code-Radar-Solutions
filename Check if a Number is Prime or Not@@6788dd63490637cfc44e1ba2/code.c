@@ -1,24 +1,19 @@
 #include <stdio.h>
-
-int main() {
-    int num, i, isPrime = 1;
-    scanf("%d", &num);
-
-    if (num < 2) {
-        isPrime = 0; // Numbers less than 2 are not prime
-    } else {
-        for (i = 2; i < num; i++) {
-            if (num % i == 0) {
-                isPrime = 0; // If divisible, not prime
-                break;
-            }
+int main(){
+    int i,c=0,a;
+    scanf("%d",&a);
+    for(i=2;i<=a/2;i++)
+    {
+        if(a%i==0)
+        {   
+            c++;
+            break;
         }
     }
-
-    if (isPrime)
-        printf("Not Prime");
-    else
+    if(c==0)
         printf("Prime");
-
+    else
+        printf("Not Prime");
     return 0;
 }
+
