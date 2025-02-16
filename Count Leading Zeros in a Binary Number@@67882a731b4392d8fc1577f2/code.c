@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int num, pos = 0;
-    
-    // Taking input: the number
-    scanf("%d", &num);
-    
-    // Finding the position of the lowest set bit
-    while ((num & 1) == 0) {
-        num >>= 1;
-        pos++;
+    unsigned int num;
+    int count = 0;
+
+    // Taking input
+    scanf("%u", &num);
+
+    // Check each bit from the most significant bit (MSB)
+    for (int i = 31; i >= 0; i--) {
+        if ((num >> i) & 1)
+            break;
+        count++;
     }
-    
-    // Printing the position (0-based)
-    printf("%d\n", pos);
-    
+
+    // Printing the count of leading zeros
+    printf("%d\n", count);
+
     return 0;
 }
