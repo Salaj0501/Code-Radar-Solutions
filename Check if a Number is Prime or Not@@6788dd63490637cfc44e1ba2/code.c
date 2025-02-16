@@ -2,10 +2,12 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (a%2==0){
+    if (a<2){
         printf("Not Prime");
     }
-    else {
-        printf("Prime");
+    else if (for i=2;i<num;i++){
+        if(num%i==0){
+            printf("Prime")
+        }
     }
 }
