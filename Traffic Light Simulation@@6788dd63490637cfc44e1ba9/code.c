@@ -2,7 +2,7 @@
 
 int main() {
     char light;
-    printf("Enter traffic light color (R, G, Y): ");
+    
     scanf(" %c", &light);
 
     switch (light) {
