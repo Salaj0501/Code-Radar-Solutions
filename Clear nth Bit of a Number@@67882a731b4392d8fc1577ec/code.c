@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &num, &n);
     
     // Clearing the nth bit using bitwise AND with NOT mask
-    num = num & !(1 << n);
+    num = num & ~(1 << n);
     
     // Printing the modified number
     printf("%d\n", num);
