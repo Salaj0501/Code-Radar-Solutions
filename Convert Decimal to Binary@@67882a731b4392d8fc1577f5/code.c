@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main(){
     int a,i,flag=0;
+    scanf("%d",&a);
     for(i=31;i>=0;i--){
         if(a&(1<<i)){
             flag=1;
