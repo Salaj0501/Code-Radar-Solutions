@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int a,i,flag;
-    for(i=1;i<=a;i++){
+    for(i=31;i>=0;i--){
         if(a&(1<<i)){
             flag=1;
         }
