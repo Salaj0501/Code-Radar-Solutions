@@ -10,8 +10,8 @@ int main(){
             printf("%d",(a&(1<<i))?1:0);
         }
     }
-    if(!flag){
+    if(!flag)
         printf("0");
-    }
+    
     return 0;
 }
