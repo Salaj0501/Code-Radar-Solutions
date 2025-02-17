@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a,i,flag
+    int a,i,flag;
     for(i=1;i<=a;i++){
         if(a&(1<<i)){
             flag=1;
