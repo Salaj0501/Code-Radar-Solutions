@@ -30,7 +30,7 @@ void printDiamond(int n) {
 
 int main() {
     int n;
-    printf("Enter the number of rows for the top half: ");
+    
     scanf("%d", &n);
     
     printDiamond(n);
