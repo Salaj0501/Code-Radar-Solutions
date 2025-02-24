@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Taking input for the side length of the square
-    printf("Enter the side length of the square: ");
+    
     scanf("%d", &n);
 
     // Loop to print the square pattern
